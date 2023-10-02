@@ -1,0 +1,7 @@
+name: 'my action'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
