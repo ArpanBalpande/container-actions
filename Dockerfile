@@ -1,4 +1,4 @@
-FROM debian:9.5-silm
+FROM debian:10.13-silm
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
